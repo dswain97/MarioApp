@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MarioApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dd6430d201ae6cd5c7486c54a4e78831cfb81a45")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a1001263dbfd7dfcb904ad15acbe00cbfdf00f10")]
 [assembly: System.Reflection.AssemblyProductAttribute("MarioApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MarioApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
