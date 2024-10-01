@@ -72,23 +72,28 @@ else
 
         if (choice == "1")
         {
-            // Add Character
+            Character character = new();
                  Console.WriteLine("Enter new character name: ");
             string? Name = Console.ReadLine();
             if (!string.IsNullOrEmpty(Name)){
-                // generate id - use max value in Ids + 1
+                character.Name = Console.ReadLine() ?? string.Empty;
+            if (!string.IsNullOrEmpty(character.Name)){
                 UInt64 Id = Ids.Max() + 1;
                 Console.WriteLine($"{Id}, {Name}");
                   // check for duplicate name
                 List<string> LowerCaseNames = Names.ConvertAll(n => n.ToLower());
                 if (LowerCaseNames.Contains(Name.ToLower()))
+                 List<string> LowerCaseNames = characters.ConvertAll(character => character.Name.ToLower());
+                if (LowerCaseNames.Contains(character.Name.ToLower()))
                 {
                     logger.Info($"Duplicate name {Name}");
+                    logger.Info($"Duplicate name {character.Name}");
                 }
                 else
                 {
                     // generate id - use max value in Ids + 1
                     UInt64 id = Ids.Max() + 1;
+                     character.Id = characters.Max(character => character.Id) + 1;
                     Console.WriteLine($"{Id}, {Name}");
                      // input character description
                     Console.WriteLine("Enter description:");
@@ -98,11 +103,13 @@ else
                     // create file from data
                     StreamWriter sw = new(file, true);
                     sw.WriteLine($"{Id},{Name},{Description}");
+                    sw.WriteLine($"{character.Id},{character.Name},{character.Description}");
                     sw.Close();
                     // add new character details to Lists
                     Ids.Add(Id);
                     Names.Add(Name);
                     Descriptions.Add(Description);
+                    characters.Add(character);
                     // log transaction
                     logger.Info($"Character id {Id} added");  
                 }
@@ -113,6 +120,7 @@ else
         else if (choice == "2")
         {
                   // loop thru Lists
+                  /*
             for (int i = 0; i < Ids.Count; i++)
             {
                 // display character details
@@ -121,6 +129,7 @@ else
                 Console.WriteLine($"Description: {Descriptions[i]}");
                 Console.WriteLine();
             }
+            */
         }
     } while (choice == "1" || choice == "2");
     */
