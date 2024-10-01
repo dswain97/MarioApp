@@ -88,6 +88,17 @@ else
                     Console.WriteLine("Enter description:");
                     string? Description = Console.ReadLine();
                     Console.WriteLine($"{Id}, {Name}, {Description}");
+                   // Console.WriteLine($"{Id}, {Name}, {Description}");
+                    // create file from data
+                    StreamWriter sw = new(file, true);
+                    sw.WriteLine($"{Id},{Name},{Description}");
+                    sw.Close();
+                    // add new character details to Lists
+                    Ids.Add(Id);
+                    Names.Add(Name);
+                    Descriptions.Add(Description);
+                    // log transaction
+                    logger.Info($"Character id {Id} added");  
                 }
             } else {
                 logger.Error("You must enter a name");
