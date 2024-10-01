@@ -11,3 +11,7 @@
 2024-10-01 14:28:05.5974|INFO|MarioApp.Program|Program ended
 2024-10-01 14:34:03.3004|INFO|MarioApp.Program|Program started
 2024-10-01 14:34:56.6332|INFO|MarioApp.Program|User choice: "2"
+2024-10-01 14:43:43.1351|INFO|MarioApp.Program|User choice: ""
+2024-10-01 14:43:43.1351|INFO|MarioApp.Program|Program ended
+2024-10-01 14:43:52.9051|INFO|MarioApp.Program|Program started
+2024-10-01 14:43:52.9368|INFO|MarioApp.Program|Program ended
