@@ -1,0 +1,8 @@
+2024-10-01 13:58:29.2267|INFO|MarioApp.Program|Program started
+2024-10-01 13:58:29.2532|INFO|MarioApp.Program|Program ended
+2024-10-01 14:14:55.7438|INFO|MarioApp.Program|User choice: "dotnet run "
+2024-10-01 14:19:38.3948|INFO|MarioApp.Program|Program started
+2024-10-01 14:19:47.4842|INFO|MarioApp.Program|User choice: "1"
+2024-10-01 14:19:51.4033|INFO|MarioApp.Program|User choice: "1"
+2024-10-01 14:19:52.4350|INFO|MarioApp.Program|User choice: ""
+2024-10-01 14:19:52.4350|INFO|MarioApp.Program|Program ended

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "HbP8uX+j6LKnaKrVhdW7aVeZxc2C1maMe9ApOwZf5di9dwnZJVvmdvosodEIFpgiL+n1LdcfCcTxy6bGGPFtMQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\dswain4\\Desktop\\MarioApp\\MarioApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dswain4\\.nuget\\packages\\nlog\\5.3.3\\nlog.5.3.3.nupkg.sha512"
+  ],
+  "logs": []
+}
